@@ -552,6 +552,7 @@ debian)
 rocky | almalinux)
   [ "$OS_VER_MAJOR" == "8" ] && SUPPORTED=true
   [ "$OS_VER_MAJOR" == "9" ] && SUPPORTED=true
+  [ "$OS_VER_MAJOR" == "10" ] && SUPPORTED=true
   ;;
 *)
   SUPPORTED=false
